@@ -58,7 +58,7 @@ export default function About(props) {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body" style={myStyle}>
-              Welcome to TextUtils, your go-to online tool for quick and
+              Welcome to TextModulator, your go-to online tool for quick and
               convenient text conversion. We specialize in transforming text
               into various formats, including lowercase, uppercase, and clearing
               unwanted content.
@@ -85,7 +85,7 @@ export default function About(props) {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body" style={myStyle}>
-              Our TextUtils website is designed with user convenience in mind.
+              Our TextModulator website is designed with user convenience in mind.
               It is accessible from any device with an internet connection,
               allowing you to transform text on the go. Whether you're using a
               computer, tablet, or smartphone, our website provides a seamless
@@ -114,7 +114,7 @@ export default function About(props) {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body" style={myStyle}>
-              With our TextUtils tools, you can save valuable time by automating
+              With our TextModulator tools, you can save valuable time by automating
               the process of converting text to uppercase, lowercase, or
               clearing unnecessary formatting. No need to manually edit each
               letter or word - our website performs the conversion swiftly and

@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function About(props) {
-
   // // To change background style
   // const [myStyle, setMyStyle] = useState({
   //   color: "#2c2a62",
@@ -29,13 +28,16 @@ export default function About(props) {
   // };
 
   let myStyle = {
-    color: props.mode === 'dark'?'white':'#042743',
-    background: props.mode === 'dark'?'rgb(36 74 104)': 'white',
+    color: props.mode === "dark" ? "white" : "#042743",
+    background: props.mode === "dark" ? "rgb(36 74 104)" : "white",
     // border: '2px solid white'
-  }
+  };
 
   return (
-    <div className="container" style={{color: props.mode === 'dark'?'white':'#042743'}}>
+    <div
+      className="container"
+      style={{ color: props.mode === "dark" ? "white" : "#042743" }}
+    >
       <h1 className="my-3">About Us</h1>
       <div className="accordion" id="accordionExample">
         <div className="accordion-item">
@@ -85,12 +87,12 @@ export default function About(props) {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body" style={myStyle}>
-              Our TextModulator website is designed with user convenience in mind.
-              It is accessible from any device with an internet connection,
-              allowing you to transform text on the go. Whether you're using a
-              computer, tablet, or smartphone, our website provides a seamless
-              and responsive experience, ensuring you can easily convert text
-              whenever you need it.
+              Our TextModulator website is designed with user convenience in
+              mind. It is accessible from any device with an internet
+              connection, allowing you to transform text on the go. Whether
+              you're using a computer, tablet, or smartphone, our website
+              provides a seamless and responsive experience, ensuring you can
+              easily convert text whenever you need it.
             </div>
           </div>
         </div>
@@ -114,9 +116,9 @@ export default function About(props) {
             data-bs-parent="#accordionExample"
           >
             <div className="accordion-body" style={myStyle}>
-              With our TextModulator tools, you can save valuable time by automating
-              the process of converting text to uppercase, lowercase, or
-              clearing unnecessary formatting. No need to manually edit each
+              With our TextModulator tools, you can save valuable time by
+              automating the process of converting text to uppercase, lowercase,
+              or clearing unnecessary formatting. No need to manually edit each
               letter or word - our website performs the conversion swiftly and
               accurately, allowing you to focus on other important tasks.
             </div>

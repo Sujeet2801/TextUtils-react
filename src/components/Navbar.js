@@ -23,21 +23,31 @@ export default function Navbar(props) {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
-            <li className="nav-item" style={{marginRight: '0.5rem'}}>
-              <a className="nav-a active" aria-current="#" href="/" style={{textDecoration: 'none'}}>
+            <li className="nav-item" style={{ marginRight: "0.5rem" }}>
+              <a
+                className="nav-a active"
+                aria-current="#"
+                href="/"
+                style={{ textDecoration: "none" }}
+              >
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-a" href="/about" style={{textDecoration: 'none'}}>
+              <a
+                className="nav-a"
+                href="/about"
+                style={{ textDecoration: "none" }}
+              >
                 About
               </a>
-            </li> 
+            </li>
           </ul>
           <div
             className={`form-check form-switch text-${
               props.mode === "light" ? "dark" : "light"
-            }`} style={{marginLeft: 'auto'}}
+            }`}
+            style={{ marginLeft: "auto" }}
           >
             <input
               className="form-check-input"
@@ -46,7 +56,10 @@ export default function Navbar(props) {
               role="switch"
               id="flexSwitchCheckDefault"
             />
-            <label className="form-check-label" htmlFor="flexSwitchCheckDefault">
+            <label
+              className="form-check-label"
+              htmlFor="flexSwitchCheckDefault"
+            >
               Enable DarkMode
             </label>
           </div>
